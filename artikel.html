@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <title>Desa Tumpakrejo | Artikel</title>
+    <style>
+      .jumbotron {
+        padding-top: 6rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top" aria-label="Ninth navbar example">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#">
+          <img src="img/balai-desa.jpeg" alt="" width="60" height="40" />
+        </a>
+        <a class="navbar-brand" href="#">Desa Tumpakrejo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample07XL">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Tentang Desa</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profil Desa</a></li>
+                <li><a class="dropdown-item" href="#">Program Desa</a></li>
+                <li><a class="dropdown-item" href="#">Potensi Desa</a></li>
+                <li><a class="dropdown-item" href="#">Produk Unggulan Desa</a></li>
+              </ul>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Artikel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Galeri</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <section class="jumbotron container">
+      <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 fst-italic">Judul Artikel Terbaru</h1>
+          <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+          <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+        </div>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-md-8">
+          <article class="blog-post">
+            <h1 class="blog-post-title mb-1">Judul Artikel yang Dibuka</h1>
+            <p class="blog-post-meta">January 1, 2021 by <a href="#">Serinuma Kae</a></p>
+            <hr />
+            <p>
+              This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration
+              flowing, so be on the lookout for this exact same string of text.
+            </p>
+            <h3>Sub-heading</h3>
+            <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+            <ul>
+              <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
+              <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
+              <li>
+                Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional
+                <code class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.
+              </li>
+              <li>Citations, like <cite>— Mark Otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
+              <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
+              <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
+            </ul>
+            <p>Most of these elements are styled by browsers with few modifications on our part.</p>
+          </article>
+
+          <nav class="blog-pagination" aria-label="Pagination">
+            <div class="row">
+              <div class="col-md-10 mb-4 justify-content-left">
+                <a class="btn btn-outline-primary rounded-pill" href="#">Sebelumnya</a>
+              </div>
+              <div class="col-md-2 mb-4 justify-contont-right">
+                <a class="btn btn-outline-primary rounded-pill" href="#">Selanjutnya</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="col-md-4">
+          <div class="position-sticky" style="top: 2rem">
+            <div class="p-4 mb-3 bg-light rounded">
+              <h4 class="fst-italic">Deskripsi Singkat</h4>
+              <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+            </div>
+
+            <div class="p-4">
+              <h4 class="fst-italic">Archives</h4>
+              <ol class="list-unstyled mb-0">
+                <li><a href="#">March 2021</a></li>
+                <li><a href="#">February 2021</a></li>
+                <li><a href="#">January 2021</a></li>
+                <li><a href="#">December 2020</a></li>
+                <li><a href="#">November 2020</a></li>
+                <li><a href="#">October 2020</a></li>
+                <li><a href="#">September 2020</a></li>
+                <li><a href="#">August 2020</a></li>
+                <li><a href="#">July 2020</a></li>
+                <li><a href="#">June 2020</a></li>
+                <li><a href="#">May 2020</a></li>
+                <li><a href="#">April 2020</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artikel lain -->
+      <div class="row mb-2 pt-4 border-top">
+        <div class="col-md-2 mb-4">
+          <div class="card">
+            <img
+              src="https://th.bing.com/th/id/R.f5d9b0530d76863c01631355196ce96c?rik=upcMwgbgwaGh5A&riu=http%3a%2f%2fwww.wallpaperup.com%2fuploads%2fwallpapers%2f2014%2f01%2f21%2f233095%2f56f6e304ec6f66618b441007f8f09632.jpg&ehk=MiiMM1w6uiEHwMxZFKkMKcd5pcLogspizMhdlCTXMeY%3d&risl=&pid=ImgRaw&r=0"
+              class="card-img-top"
+              alt="text editor"
+              height="100"
+            />
+            <div class="card-body">
+              <p class="card-text">Tips Bermain Untuk Mengalahkan SMP Teikou</p>
+              <a href="..." class="stretched-link">Lanjutkan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 mb-4">
+          <div class="card">
+            <img src="https://static3.cbrimages.com/wordpress/wp-content/uploads/2020/04/Free-Iwatobi-Swim-Club-Cast-of-Characters.jpg" class="card-img-top" alt="text editor" height="100" />
+            <div class="card-body">
+              <p class="card-text">Persiapan SMA Iwatobi Bertanding di Nasional</p>
+              <a href="..." class="stretched-link">Lanjutkan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 mb-4">
+          <div class="card">
+            <img src="https://wallpapercave.com/wp/wp1848217.jpg" class="card-img-top" alt="text editor" height="100" />
+            <div class="card-body">
+              <p class="card-text">Benarkah Kaori Hidup Kembali?</p>
+              <a href="..." class="stretched-link">Lanjutkan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Komentar -->
+      <div class="card-body pt-3 border-top fst-italic">
+        <h3>Tambahkan Komentar</h3>
+        <form method="POST" action="">
+          <div class="form-group mb-3">
+            <label>Nama</label>
+            <input type="text" name="nama" class="form-control form-control-sm" placeholder="Masukkan nama anda" required />
+          </div>
+          <div class="form-group mb-3">
+            <label>Email</label>
+            <input type="email" name="email" class="form-control form-control-sm" placeholder="Masukkan email anda" required />
+          </div>
+          <div class="form-group mb-3">
+            <label>Komentar</label>
+            <textarea class="form-control form-control-sm" name="komentar" placeholder="Tuliskan komentar anda di sini" rows="3" required></textarea>
+          </div>
+          <!-- button -->
+          <div class="d-flex flex-row justify-content-end">
+            <div class="mr-2">
+              <button type="submit" class="btn btn-success" name="simpan">Tambah</button>
+            </div>
+            <div class="mr-2">
+              <button type="reset" class="btn btn-danger" name="clear">Hapus</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="#">
+              <i class="bi-twitter" width="24" height="24"><use xlink:href="#twitter"></use></i>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#">
+              <i class="bi-instagram" width="24" height="24"><use xlink:href="#instagram"></use></i>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#">
+              <i class="bi-facebook" width="24" height="24"><use xlink:href="#facebook"></use></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!-- Akhir Footer -->
+  </body>
+</html>
